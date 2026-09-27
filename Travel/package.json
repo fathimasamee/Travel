@@ -1,0 +1,25 @@
+{
+  "name": "travelsphere-platform",
+  "version": "1.0.0",
+  "description": "TravelSphere - Production-Ready Commercial Travel Booking Management System",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "db:setup": "cd backend && npm run db:setup",
+    "db:push": "cd backend && npm run prisma:push",
+    "db:seed": "cd backend && npm run prisma:seed"
+  },
+  "keywords": [
+    "travel-booking",
+    "nextjs",
+    "express",
+    "prisma",
+    "postgresql",
+    "travelsphere"
+  ],
+  "author": "TravelSphere Team",
+  "license": "MIT"
+}
